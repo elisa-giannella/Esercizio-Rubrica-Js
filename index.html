@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Esercizio Rubrica</title>
+
+    <!-- CDN Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="text-center p-2">Rubrica</h1>
+
+
+
+    <div class="container-fluid">
+
+        <div class="row justify-content-center">
+
+            <!-- bottone rubrica -->
+
+            <div class="col-12 col-md-3 justify-content-center d-flex align-items-center flex-column m-3">
+                <button class="btn btn-custom my-3" id="showContactsBtn">
+                    Mostra Rubrica
+                </button>
+            </div>
+
+            <!-- campi input -->
+
+            <div class="col-12 col-md-4 justify-content-center d-flex flex-column">
+
+                <div class="input-group d-flex justify-content-center my-2">
+                    <input id="nameInput" type="text" class="form-control" placeholder="Nome contatto" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+
+
+                <div class="input-group d-flex justify-content-center my-2">
+                    <input id="numberInput" type="text" class="form-control" placeholder="Numero contatto" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+
+            </div>
+
+            <!-- bottoni contatti -->
+
+            <div class="col-12 col-md-3 justify-content-center d-flex flex-column align-items-center m-3">
+                <button id="addContactBtn" class="btn btn-custom my-3">
+                    Aggiungi contatto
+                </button>
+                <button id="deleteContactBtn" class="btn btn-custom my-3">
+                    Rimuovi contatto
+                </button>
+                <button id="searchContactBtn" class="btn btn-custom my-3">
+                    Cerca contatto
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- card -->
+
+    <div class="container">
+        <div class="row justify-content-center my-5" id="cardWrapper">
+
+            <!-- modello card -->
+
+            <!-- <div class="col-12 col-md-6 mb-3 mx-3">
+
+                <div class="card-custom">
+
+                    <p class="lead m-0">Nome Contatto</p>
+                    <p class="lead m-0">Numero Contatto</p>
+                    <p class="lead m-0">
+                        <i class="fa-solid fa-trash icon-custom"></i>
+                    </p>
+
+                </div>
+
+            </div> -->
+
+
+        </div>
+    </div>
+
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/294fceff26.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- Custom JS -->
+    <script src="./main.js"></script>
+</body>
+</html>

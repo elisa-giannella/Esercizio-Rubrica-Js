@@ -1,0 +1,42 @@
+:root {
+    --red:rgb(6, 94, 91);
+    --blue:rgb(217, 219, 186);
+    --yellow:rgb(126, 218, 138);
+}
+
+body {
+    background-color: var(--yellow);
+    color: var(--red);
+}
+
+.btn-custom{
+    background-color: var(--yellow);
+    border: 3px solid var(--red);
+    color: var(--red);
+    padding: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    transition: 0.4s;
+    width: 260px;
+}
+
+.btn-custom:hover{
+    background-color: var(--red);
+    color: var(--yellow);
+    border: 3px solid var(--red);
+}
+
+.card-custom{
+    height: 100px;
+    border: 2px solid var(--red);
+    border-radius: 20px;
+    background-color: var(--blue);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+}
+
+.icon-custom{
+    cursor: pointer;
+}
